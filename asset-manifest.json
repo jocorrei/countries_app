@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/countries_app/static/js/main.387f76b1.js",
+    "main.js": "/countries_app/static/js/main.ee1e5d65.js",
     "index.html": "/countries_app/index.html",
-    "main.387f76b1.js.map": "/countries_app/static/js/main.387f76b1.js.map"
+    "main.ee1e5d65.js.map": "/countries_app/static/js/main.ee1e5d65.js.map"
   },
   "entrypoints": [
-    "static/js/main.387f76b1.js"
+    "static/js/main.ee1e5d65.js"
   ]
 }
