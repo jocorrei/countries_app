@@ -1,6 +1,6 @@
 import React from 'react'
 import Languages from './Languages'
-import Weather from './Weather'
+
 
 const CountrieInfo = ({countrie}) => {
 	let langArray = Object.entries(countrie[0].languages)
@@ -17,7 +17,6 @@ const CountrieInfo = ({countrie}) => {
 					<Languages key={language[1]} lang={language[1]}/>)}
 			</ul>
 			<img src={imgSource[0][1]} style={{width: 100}}></img>
-			<Weather city={countrie[0].capital}/>
 		</div>
 	)
 }
