@@ -9,7 +9,7 @@ const Weather = ({city}) => {
 	const apiKey = process.env.REACT_APP_API_KEY
 
 	const hook = () => {
-		axios.get(`https://api.weatherstack.com/current?access_key=4540af6ca5a08c3c216c480310809e54&query=${city}`).then(response => {
+		axios.get(`http://api.weatherstack.com/current?access_key=${apiKey}&query=${city}`).then(response => {
 				setCityWeather(response.data);
 				setLoading(false)
 			})
